@@ -22,7 +22,7 @@ grafana-deployment.yaml  heapster-deployment.yaml  heapster-service.yaml  influx
 grafana-service.yaml     heapster-rbac.yaml        influxdb-cm.yaml       influxdb-service.yaml
 ```
 
-+ 新加了 `heapster-rbac.yaml` 和 `influxdb-cm.yaml` 文件，分别定义 RoleBinding 和 inflxudb 的配置；
++ 新加了 `heapster-rbac.yaml` 和 `influxdb-cm.yaml` 文件，分别定义 RoleBinding 和 inflxudb 的配置；【原版heapster-rbac.yaml有误，请下载okzhchy版，alpha改成beta】
 
 已经修改好的 yaml 文件见：[heapster](https://github.com/opsnull/follow-me-install-kubernetes-cluster/blob/master/manifests/heapster)。
 
