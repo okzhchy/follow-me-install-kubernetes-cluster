@@ -193,7 +193,6 @@ $ /root/local/bin/etcdctl \
 
 ``` bash
 $ ping 172.30.19.1
-$ ping 172.30.20.2
-$ ping 172.30.21.3
-$
+$ ping 172.30.20.1
+$ ping 172.30.21.1
 ```
